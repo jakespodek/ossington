@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When's the next train?</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet"> 
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+	<script src="script.js"></script>
+</head>
+<body>
+    <h1 class="wrapper">When's the next train?</h1>
+
+    <div class="wrapper">
+        <select class="stationSelect" name="stations" id="stations">
+            <option value="select">Choose a station</option>
+            <option value="ossington">Ossington</option>
+            <option value="christie">Christie</option>
+        </select>
+    </div>
+
+    <div class="trainTimes">
+        <div class="wrapper eastboundDiv">
+            <h2>Eastbound:</h2>
+            <ul class="eastboundTimes">
+                <!-- eastbound train times go here -->
+            </ul>
+        </div>
+
+        <div class="wrapper westboundDiv">
+            <h2>Westbound:</h2>
+            <ul class="westboundTimes">
+                <!-- westbound train times go here -->
+            </ul>
+        </div>
+    </div>
+    
+    <footer class="wrapper">
+        <p>Created at <a href="https://junocollege.com/">Juno College</a></p>
+    </footer>
+</body>
+</html>
